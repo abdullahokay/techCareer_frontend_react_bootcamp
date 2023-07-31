@@ -1,0 +1,138 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    margin: 1.5rem 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    color: white;
+    border-bottom: 1px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+.header-container {
+    padding: 30px;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.side-links-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 800;
+}
+
+.side-link {
+    padding: 10px;
+}
+
+header.masthead:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #212529;
+    opacity: 0.5;
+}
+
+header.masthead {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background: no-repeat center center;
+    background-color: #6c757d;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+header.masthead .site-header {
+    text-align: center;
+    color: white;
+}
+
+header.masthead .site-header .subheading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin-top: 0.625rem;
+}
+
+.posts-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 25rem;
+}
+
+.post-title {
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 2.25rem;
+    color: #212529;
+    margin-top: 1.875rem;
+    margin-bottom: 0.625rem;
+}
+
+.post-subtitle {
+    font-weight: 300;
+    margin-bottom: 0.625rem;
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
+
+.post-info {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-top: 0;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    color: white;
+    background-color: #0085A1;
+    border: none;
+    padding: 1rem 1.75rem;
+    letter-spacing: 0.0625em;
+    font-size: 0.875rem;
+    font-weight: 800;
+}
+
+footer {
+    padding: 3rem 0;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-icon-container {
+    border-radius: 50%;
+    width: 100px;
+    color: #000000;
+}
+
+.social-icon-container:hover {
+    color: #0085A1;
+    cursor: pointer;
+}
